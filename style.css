@@ -1,3 +1,43 @@
 body{
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.exploded {
+  background-image: url("img/explosion.jpg");
+}
+
+.unexploded {
+  background-image: url("img/simcity.jpg");
+}
+
+main {
+  background-color: black;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
+  padding: 0.5em;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+#timertext {
+  font-size: x-large;
+}
+
+main div:last-child {
+  padding: .5em;
+}
+
+button {
+  margin: 10px;
 }
